@@ -1,0 +1,115 @@
+.header{
+  background-color: #FDF1EB;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-Area p{
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #725C5C;
+
+  margin: 0;
+}
+
+.text-Area h4{
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #725C5C;
+  line-height: 25px;
+
+  margin: 0;
+}
+
+.user-Area{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-Area a{
+  margin-right: 22px;
+
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+
+  padding: 5px;
+
+  width: 97px;
+  height: 34px;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-Area a img:nth-child(1){
+ margin-top: -5px;
+}
+
+.user-Area a span{
+  margin: 0px 5px;
+ }
+
+.user-Area .user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-Area .user .text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.user-Area .user .text span{
+  margin-top:  - 10px;
+
+  font-family: 'Quicksand';
+  font-size: 14px;
+  line-height: 17,5px;
+}
+
+.user-Area .user .text p{
+  margin: 0;
+
+  font-family: 'Quicksand';
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.user-Area .user .img-user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-Area .user img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.user-Area .user .number{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #F85959;
+  color: #FFFFFF;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+  position: absolute;
+  margin-right: -55px;
+  margin-top: -30px;
+}

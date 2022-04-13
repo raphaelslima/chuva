@@ -1,0 +1,81 @@
+.asideRight{
+  max-width: 242px;
+  margin: 20px 0px 20px 30px;
+}
+
+.asideRight .buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.asideRight .buttons a{
+  background-color: #ED7839;
+  text-decoration: none;
+  outline: none;
+
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+
+  padding: 6px 12px;
+
+  cursor: pointer;
+
+  border-radius: 4px;
+
+  margin-right: 5px;
+}
+
+.asideRight .buttons a:nth-child(3){
+  margin-right: 0px;
+}
+
+.asideRight span{
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: #ED7839;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.asideRight .details{
+  height: 440px;
+
+  border: solid 1px #ECECEC;
+  margin-top: 15px;
+}
+
+.asideRight .details .title{
+  height: 45px;
+  padding: 10px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+
+  background-color: #FDF1EB;
+}
+
+.asideRight .details .title h4{
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #4E4E4E
+}
+
+.asideRight .details p{
+  font-family: 'Quicksand';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #5C5C5C;
+  margin: 15px;
+}

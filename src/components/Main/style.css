@@ -1,0 +1,22 @@
+.main{
+  margin: 20px 45px;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+}
+
+.main .title{
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 20px;
+  color: #ED7839;
+  line-height: 25px;
+  margin: 0;
+}
+
+.main .left-main{
+  display: flex;
+  flex-direction: column;
+}

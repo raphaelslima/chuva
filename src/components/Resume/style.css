@@ -1,0 +1,39 @@
+
+
+.resume h3{
+  background-color: #FDF1EB;
+
+  padding: 10px 15px;
+
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+
+  margin-bottom: 15px;
+}
+
+.resume .text{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ECECEC;
+}
+
+.resume .text p{
+  padding: 15px 10px;
+
+  font-family: 'Quicksand';
+  font-size: 14px;
+  line-height: 21,33px;
+  font-weight: 400;
+  color: #5C5C5C;
+}
+
+.resume .text a{
+  font-family: 'Quicksand';
+  font-size: 14px;
+  line-height: 21,33px;
+  font-weight: 900;
+  color: #F1833E;
+  cursor: pointer;
+}

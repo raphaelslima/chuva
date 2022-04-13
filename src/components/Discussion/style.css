@@ -1,0 +1,464 @@
+.discussion{
+  border: 1px solid #ECECEC;
+}
+
+.discussion  h3{
+
+  background-color: #FDF1EB;
+
+  padding: 10px 15px;
+
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+
+  margin-bottom: 15px;
+}
+
+.discussion .shareArea .createTopic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.discussion .shareArea .createTopic h5{
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ED7839;
+}
+
+.discussion .shareArea .createTopic .iconsArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 27px;
+}
+
+.discussion .shareArea .createTopic p{
+  font-family: 'Quicksand';
+  font-size: 14px;
+  line-height: 19.25px;
+  font-weight: 400;
+  color: #595959;
+
+  max-width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  margin-top: 43px;
+}
+
+.discussion .shareArea .createTopic button{
+  background-image: linear-gradient( to right, #FEB254, #F0813D );
+
+  padding: 7px 13px;
+
+  margin-top: 15px;
+  margin-bottom: -15px;
+
+  border-radius: 4px;
+  border: none;
+
+  text-decoration: none;
+  outline: none;
+
+  width: 133px;
+  height: 32px;
+
+  color: #FFFFFF;
+  font-family: 'Quicksand';
+  font-size: 15px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discussion .shareArea .form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.discussion .shareArea .form p{
+  margin-top: 15px;
+  color: #5C5C5C;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.discussion .shareArea .form .formInput{
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 0px 15px;
+}
+
+.discussion .shareArea .form .formInput label{
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 700;
+  color: #ED7839;
+ 
+}
+
+.discussion .shareArea .form .formInput label:nth-child(3){
+  margin-top: 10px
+}
+
+.discussion .shareArea .form .formInput input, textarea{
+  height: 40px;
+  padding: 10px 20px;
+
+  color: #4D4D4D;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.5px;
+
+  border-radius: 3px;
+
+  border: 1px solid #CCCCCC;
+}
+
+.discussion .shareArea .form .formInput textarea{
+  height: 113px;
+}
+
+.discussion .shareArea .form .btns{
+  background-color: #CCCCCC;
+  width: 100%;
+  height: 31px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discussion .shareArea .form .btns .text-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discussion .shareArea .form .btns .text-btn button{
+  margin: 0px 30px;
+  background-color: #CCCCCC;
+  border: none;
+
+  color: #474747;
+  font-weight: 700;
+}
+
+.discussion .shareArea .form .btns .submit{
+  background-image: linear-gradient( to right, #FEB154, #F1833E );
+
+  padding: 7px 67 px;
+
+  border-radius: 0px 0px 4px 0px;
+  border: none;
+
+  text-decoration: none;
+  outline: none;
+
+  width: 205px;
+  height: 31px;
+
+  color: #FFFFFF;
+  font-family: 'Quicksand';
+  font-size: 15px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.discussion .sendTopic{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.discussion .sendTopic .thankYouSend{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.discussion .sendTopic .thankYouSend h4{
+  margin-top: 15px;
+
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ED7839;
+}
+
+.discussion .sendTopic .thankYouSend p{
+  margin-top: 18px;
+
+  font-family: 'Quicksand';
+  font-size: 14px;
+  line-height: 19.25px;
+  font-weight: 400;
+  color: #595959;
+}
+
+.discussion .sendTopic .thankYouSend a{
+  margin-top: 30px;
+  margin-bottom: 47px;
+
+  font-family: 'Quicksand';
+  font-size: 14px;
+  line-height: 19.25px;
+  font-weight: 500;
+  color: #F48F44;
+  text-decoration: underline;
+}
+
+.discussion .sendTopic .thankYouSend button{
+  font-family: 'Quicksand';
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+
+  background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+
+  border: none;
+
+  padding: 7px 55px;
+
+  margin-bottom: -15px;
+}
+
+.discussion .waitFeedback{
+  width: 100%;
+  height: 150px;
+
+  background-color: #E7E7E7;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 15px;
+  margin-top: 30px;
+
+  
+}
+
+.discussion .waitFeedback img{
+  margin-bottom: 8px;
+  background-color: #707070;
+}
+
+.discussion .waitFeedback h5{
+  font-family: 'Quicksand';
+  font-size: 16px;
+  font-weight: 700;
+  color: #707070;
+
+  margin-bottom: 8px;
+}
+
+.discussion .waitFeedback a{
+  font-family: 'Segoe UI';
+  font-size: 14px;
+  font-weight: 400;
+  color: #ED7839;
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+
+.discussion .answers{
+  width: 100%;
+  border: 1px solid #E7E7E7;
+  padding: 17px 25px;
+  margin-top: 30px;
+
+  cursor: pointer;
+}
+
+.discussion .answers h5{
+font-family: 'Quicksand';
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+color: #ED7839;
+}
+
+.discussion .answers .author{
+font-family: 'Quicksand';
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+
+margin-top: 3px;
+color: #5C5C5C;
+}
+
+.discussion .answers .questionContent{
+font-family: 'Quicksand';
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+color: #4D4D4D;
+
+margin: 10px 0px;
+}
+
+.discussion .answers .icons{
+  display: flex;
+}
+
+.discussion .answers .icons .like{
+  width: 30px;
+  height: 20px;
+
+  background-color: #ED7839;
+  padding: 5px;
+  border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.discussion .answers .sendComment{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.discussion .answers .sendComment textarea{
+  width: 100%;
+  margin-top: 5px;
+  height: 113px;
+
+  padding: 10px 20px;
+
+  color: #4D4D4D;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.5px;
+
+  border-radius: 3px;
+
+  border: 1px solid #CCCCCC;
+}
+
+.discussion .answers .sendComment label{
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 700;
+  color: #ED7839;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.discussion .comment{
+  background-color: #E7E7E7;
+  height: 131px;
+  padding: 18px 23px 35px 23px;
+
+  border: 1px solid #E7E7E7;
+ 
+}
+
+.discussion .comment .header-comment{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 15px;
+}
+
+.discussion .comment .header-comment h6{
+font-family: 'Quicksand';
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+color: #5C5C5C;
+}
+
+.discussion .comment .icons-comment{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+
+  color: #ED7839
+}
+
+.discussion .comment p{
+  font-family: 'Quicksand';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.discussion .author{
+  background-color: #FFFFFF;
+}
+
