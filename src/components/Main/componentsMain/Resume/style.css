@@ -1,5 +1,3 @@
-
-
 .resume h3{
   background-color: #FDF1EB;
 
@@ -36,4 +34,8 @@
   font-weight: 900;
   color: #F1833E;
   cursor: pointer;
+}
+
+.resume .text .showless{
+  margin-top: 10px;
 }

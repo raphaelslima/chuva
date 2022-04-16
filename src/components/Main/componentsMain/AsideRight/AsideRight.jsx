@@ -3,24 +3,30 @@ import React from "react";
 //CSS
 import './style.css'
 
+//Icons
+import download from '../../../../assets/icons/download.png'
+import star from '../../../../assets/icons/star.png'
+import doi from '../../../../assets/icons/doi.png'
+
 export default function AsideRight(props){
   return(
 
       <aside className="asideRight">
-      <div className="buttons">
-            <a>Download</a>
-            <a>
-              STAR
-            </a>
-            <a>
-              DOI
-            </a>
+        <div className="buttons">
+          <a>
+            <img src={download} alt="Download" />
+          </a>
+          <a>
+            <img src={star} alt="Favorite" />
+          </a>
+          <a>
+            <img src={doi} alt="doi" />
+              </a>
           </div>
-          <span>COMO CITAR ESSE TRABALHO?</span>
+        <span>COMO CITAR ESSE TRABALHO?</span>
           <div className="details">
             <div className="title">
-            <h4>Detalhes</h4>
-
+              <h4>Detalhes</h4>
             </div>
             <p>
               Tipo de Apresentação: <strong>Pôster</strong> 

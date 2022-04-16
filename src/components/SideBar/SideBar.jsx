@@ -25,10 +25,6 @@ export default function SideBar(props){
           <li> <a href="">Contatos</a> </li>
         </ul>
       </nav>
-    
-
-          
-      
     </div>
   )
 }

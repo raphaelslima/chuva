@@ -4,12 +4,37 @@ import React, { useState } from 'react'
 import './style.css'
 
 export default function Resume(props) {
-  const [showBtn, setShowBtn] = useState('inline')
+  const [showMoreBtn, setShowMoreBtn] = useState('inline')
+  const [showLessBtn, setShowLessBtn] = useState('none')
   const [showText, setShowText] = useState('none')
 
   function handleClick() {
-    setShowBtn('none')
-    setShowText('inline')
+
+    if(showMoreBtn === 'none'){
+      setShowMoreBtn('inline')
+    }
+
+    if(showMoreBtn === 'inline'){
+      setShowMoreBtn('none')
+    }
+
+    if(showLessBtn === 'none'){
+      setShowLessBtn('inline')
+    }
+
+    if(showLessBtn === 'inline'){
+      setShowLessBtn('none')
+    }
+
+    if(showText === 'none'){
+      setShowText('inline')
+    }
+
+    if(showText === 'inline'){
+      setShowText('none')
+    }
+    
+    
   }
 
   return (
@@ -25,7 +50,7 @@ export default function Resume(props) {
           vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis
           et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien
           scelerisque, ac gravida eros vestibulum.
-          <span style={{ display: `${showBtn}` }}>
+          <span style={{ display: `${showMoreBtn}` }}>
             <a onClick={() => handleClick()}> ver mais</a>
           </span>
           <br />
@@ -63,7 +88,10 @@ export default function Resume(props) {
             viverra ac orci nec, iaculis dictum sem. Aliquam at malesuada arcu.
             Aliquam erat volutpat. Donec varius ipsum purus, ut vehicula purus
             placerat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.{' '}
+            elit. <span className='showless' style={{ display: `${showLessBtn}` }}>
+              <a onClick={() => handleClick()}> ver menos</a>
+            </span>
+            
           </span>
         </p>
       </div>

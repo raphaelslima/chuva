@@ -1,6 +1,6 @@
 .asideRight{
   max-width: 242px;
-  margin: 20px 0px 20px 30px;
+  margin: 0px 0px 20px 30px;
 }
 
 .asideRight .buttons{
@@ -10,17 +10,16 @@
 }
 
 .asideRight .buttons a{
-  background-color: #ED7839;
   text-decoration: none;
   outline: none;
+
+  height: 31px;
 
   color: #FFFFFF;
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
-
-  padding: 6px 12px;
 
   cursor: pointer;
 
@@ -29,19 +28,26 @@
   margin-right: 5px;
 }
 
+.asideRight .buttons a:nth-child(1){
+  width: 120px;
+}
+
 .asideRight .buttons a:nth-child(3){
-  margin-right: 0px;
+  margin: 0px 0px;
+  background-color: red;
 }
 
 .asideRight span{
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
 
   color: #ED7839;
   display: flex;
   justify-content: flex-end;
+
+
 }
 
 .asideRight .details{

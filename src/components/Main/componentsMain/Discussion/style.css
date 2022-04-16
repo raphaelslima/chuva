@@ -40,6 +40,14 @@
   margin-top: 27px;
 }
 
+.discussion .shareArea .createTopic .iconsArea img{
+  margin-right: 50px;
+}
+
+.discussion .shareArea .createTopic .iconsArea img:nth-child(3){
+  margin-right: 0px;
+}
+
 .discussion .shareArea .createTopic p{
   font-family: 'Quicksand';
   font-size: 14px;
@@ -80,6 +88,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  cursor: pointer;
 }
 
 .discussion .shareArea .form{
@@ -271,6 +281,10 @@
   
 }
 
+.discussion .waitFeedback .icon-correct{
+  margin-bottom: 8px;
+}
+
 .discussion .waitFeedback img{
   margin-bottom: 8px;
   background-color: #707070;
@@ -301,6 +315,9 @@
   padding: 17px 25px;
   margin-top: 30px;
 
+}
+
+.discussion .answers.static{
   cursor: pointer;
 }
 
@@ -334,15 +351,63 @@ margin: 10px 0px;
 
 .discussion .answers .icons{
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.discussion .answers .icons .like{
-  width: 30px;
-  height: 20px;
+.discussion .answers .icons .icon-heart{
+  width: 17px;
+  height: 19px;
+  
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  border-radius: 4px;
 
   background-color: #ED7839;
-  padding: 5px;
-  border: 0;
+
+  margin: 0px 15px;
+
+}
+
+.discussion .answers .icons .icon-list{
+  width: 17px;
+  height: 19px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  border-radius: 4px;
+
+  background-color: #ED7839;
+}
+
+.discussion .answers .icons .count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discussion .answers .icons .count p{
+font-family: 'Segoe UI';
+font-size: 14px;
+font-weight: 350;
+line-height: 19px;
+
+color: #757575;
+
+margin-right: 15px;
+
+}
+
+.discussion .answers .icons .count p:nth-child(2){
+  margin-right: 0px;
 }
 
 
@@ -430,7 +495,7 @@ margin: 10px 0px;
   margin-bottom: 15px;
 }
 
-.discussion .comment .header-comment h6{
+.discussion .comment .header-comment h5{
 font-family: 'Quicksand';
 font-size: 12px;
 font-weight: 700;
@@ -443,12 +508,19 @@ color: #5C5C5C;
   justify-content: space-between;
   align-items: center;
 
+}
+
+.discussion .comment .icons-comment h5{
+  margin-right: 30px;
   font-family: 'Quicksand';
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
-
   color: #ED7839
+}
+
+.discussion .comment .icons-comment .icon-correct{
+  color: #ED7839;
 }
 
 .discussion .comment p{

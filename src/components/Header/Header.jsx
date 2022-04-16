@@ -32,8 +32,8 @@ export default function Header(props){
             
           <div className="user">
             <div className="text">
-            <span>Bem vindo!</span>
-            <p>alguem12@galoascience.com</p>
+              <span>Bem vindo!</span>
+              <p>alguem12@galoascience.com</p>
             </div>
             <div className="img-user">
               <div className="number">2</div>
